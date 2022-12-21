@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* .circle {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+} */
+
+.circle.sm {
+  width: 20px;
+  height: 20px;
+}
+
+.circle.md {
+  width: 35px;
+  height: 35px;
+}
+
+.circle.lg {
+  width: 50px;
+  height: 50px;
+}
+
+
+@media screen and (max-width: 544px) {
+  .MuiDialog-paperScrollPaper {
+    width: 100%;
+  }
+}
+
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+button,
+div,
+input,
+textarea,
+div {
+  font-family: 'Titillium Web', sans-serif !important;
+}
+
+/* span {
+  color: white !important;
+} */
+
+/* .MuiAutocomplete-popper {
+  background-color: red !important;
+  color: black !important;
+
+} */
+
+/* ForwardRef(Dialog)-root-1 MuiModal-root MuiModal-hidden css-ew73zq-MuiModal-root-MuiDialog-root */
+.uploader__placeholder {
+  height: 200px !important;
+  width: 300px !important;
+}
